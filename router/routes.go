@@ -8,5 +8,6 @@ import (
 func UserRoute(router *mux.Router) {
 
 	router.HandleFunc("/set", commands.Set()).Methods("POST")
+	router.HandleFunc("/get", commands.Get()).Methods("POST")
 
 }
