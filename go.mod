@@ -1,4 +1,4 @@
-module github.com/sceary-expert/memory-key-value-database-in-go
+module memory-key-value-database-in-go
 
 go 1.20
 
@@ -6,6 +6,7 @@ require (
 	github.com/go-playground/validator v9.31.0+incompatible
 	github.com/gorilla/mux v1.8.0
 	github.com/joho/godotenv v1.5.1
+	github.com/sceary-expert/memory-key-value-database-in-go v0.0.0-20230329082015-0ce2477c2837
 	go.mongodb.org/mongo-driver v1.11.3
 )
 
@@ -24,5 +25,4 @@ require (
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/text v0.3.8 // indirect
-	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
